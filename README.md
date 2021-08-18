@@ -2,12 +2,12 @@
 
 **How execute the code?**
 
-Install Python 3.
+1. Install Python 3.
 
-In cmd/terminal:
+2. In cmd/terminal:
 - > python3 cesar.py
 
-**Functionality:**
-- Encrypt
-- Decrypt
-- Brute Force
+**Functionalities:**
+- [x] Encrypt
+- [x] Decrypt
+- [x] Brute Force
