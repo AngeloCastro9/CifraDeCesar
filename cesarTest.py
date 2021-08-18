@@ -17,7 +17,7 @@ def bruteForce(encriptedText):
         key = int(key)
         print('Key:', key, 'Result:', cesar(encriptedText, key, False))
 
-text, key = input("Digite o texto seguido da chave (separe por ,): ").strip().split(",")
+text, key = input("Input your text and key (separed by ,): ").strip().split(",")
 
 key = int(key)
 
