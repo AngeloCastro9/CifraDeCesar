@@ -21,6 +21,6 @@ text, key = input("Input your text and key (separed by ,): ").strip().split(",")
 
 key = int(key)
 
-encripted = cesar(text.lower(), key, True)
-print('Encripted', encripted)
-bruteForce(encripted)
+encriptedText = cesar(text.lower(), key, True)
+print('Encripted', encriptedText)
+bruteForce(encriptedText)
