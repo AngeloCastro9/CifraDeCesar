@@ -1,10 +1,10 @@
 def cesar(text, key, isEncripted):
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
     encriptedText = ''
-    for later in text:
-        index = alphabet.find(later)
+    for letter in text:
+        index = alphabet.find(letter)
         if index == -1:
-            encriptedText += later
+            encriptedText += letter
         else:
             newIndex = index + key if isEncripted == True else index - key
             newIndex = newIndex % len(alphabet)
