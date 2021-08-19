@@ -1,4 +1,4 @@
-def cesar(text, key, isDecripted):
+def cesar(text, key, isEncripted):
     alphabet = 'abcdefghijklmnopqrstuvwxyz'
     encriptedText = ''
     for later in text:
@@ -6,7 +6,7 @@ def cesar(text, key, isDecripted):
         if index == -1:
             encriptedText += later
         else:
-            newIndex = index + key if isDecripted == True else index - key
+            newIndex = index + key if isEncripted == True else index - key
             newIndex = newIndex % len(alphabet)
             encriptedText += alphabet[newIndex:newIndex+1]
     return encriptedText
